@@ -1,0 +1,33 @@
+body{
+    background-size: cover;
+    background-position: center;
+}
+
+.heading
+{
+font-size: 25px;
+width: 100%;
+margin: 0px;
+}
+
+
+#button{
+    background-color: pink;
+    color:white;
+    border: 1px solid snow;
+    font-size: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px white;
+
+}
+
+.copy_right_footer{
+    position:fixed;
+    color:white;
+    bottom:0;
+    width: 100%;
+    line-height: 3;
+    background-color: #ff9248;
+    text-align: center;
+    font-size: 14px;
+  }
