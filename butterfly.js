@@ -3,7 +3,7 @@ status=""
 objects= []
 
 function preload(){
-    img= loadImage('Butterfly.jpeg')
+    img= loadImage('Butterfly.jpg')
 }
 
 function setup(){
@@ -42,6 +42,7 @@ function draw(){
           noFill()
           stroke("red")
           rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height)
+          document.getElementById("no_objects").innerHTML = "There CoCoSSD model has detected " + objects.length +" object"
       }
   }
 }
